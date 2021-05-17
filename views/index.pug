@@ -1,0 +1,22 @@
+extends layout
+
+block content
+  div(class='container' style='padding-top: 25px')
+    div(class="row")
+      input(class="form-control form-control-lg" type="text" placeholder="Search")
+    div(class="row" style='padding-top: 5px')
+      for book in books
+        div(class="col-sm" style="padding-top:15px")
+          div(class="card" style="width: 18rem;" )
+            div(class='text-center' style='padding-top: 10px')
+              img(src=book.imgurl class="img-thumbnail" alt="..." style='width:150px;height:200px')
+            div(class="card-body")
+              h5(class="card-title")=book.Title
+              p(class="card-text")=book.Desc
+              a(href="#" class="btn btn-primary") Buy
+
+
+    
+        
+      
+      

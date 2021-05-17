@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,  
+      "Title": "The DevOps Handbook",
+      "Author": "Gene Kim",
+      "Desc": "If you are looking for well-researched work with historical case and business studies you need to give it a try.",
+      "Price": 18,
+      "imgurl": "https://miro.medium.com/max/192/0*4pIpKa6HvRKc7eAH.jpg"
+    },
+    {
+      "id": 2,    
+      "Title": "Building Microservices",
+      "Author": "Sam Newman",
+      "Desc": "Very Good Introduction to Microservices covering topics like team building, versioning, logging, monitoring etc..",
+      "Price": 10,
+      "imgurl": "https://miro.medium.com/max/220/0*jU9NAV_fel8uGEeV.jpg"      
+    },
+    {
+        "id": 3,
+        "Title": "Site Reliability Engineering",
+        "Author": "Jenifer Petoff",
+        "Desc": "How Google Runs Production Systems ? This book is answering this question in a well structured manner.",
+        "Price": 32,
+        "imgurl": "https://miro.medium.com/max/220/0*wH8Ms0oHZZt83ofW.jpg"      
+    },
+    {
+        "id": 4,  
+        "Title": "Effective DevOps",
+        "Author": "Jenifer Davis",
+        "Desc": "Effective DevOps is not just a technical guide but it is also a cultural and managerial guide.",
+        "Price": 25,
+        "imgurl": "https://miro.medium.com/max/220/0*MSnRzjXkwffLKZ1L.jpg"      
+    },
+    {
+        "id": 5,  
+        "Title": "The DevOps Toolkit",
+        "Author": "Victor",
+        "Desc": "A journey to build a full and stable CI/CD pipeline and support modern and distributed applications build on top of micro services architectures",
+        "Price": 33,
+        "imgurl": "https://miro.medium.com/max/220/0*3d84n9CplwWJR1ds.jpg"      
+    },
+    {
+        "id": 6,  
+        "Title": "DevOps: A Software Architect's Perspective",
+        "Author": "Len Bass",
+        "Desc": "For software architects, this book is a very good reference to understand and master DevOps environments",
+        "Price": 53,
+        "imgurl": "https://miro.medium.com/max/198/0*lwJvPrLEKCPVTNPG.jpg"      
+    }
+]

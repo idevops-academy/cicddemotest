@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" time="2.757">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2021-05-17T02:42:12" time="1.437" tests="7">
+    <testcase classname=" Test if the number is even" name=" Test if the number is even" time="0.003">
+    </testcase>
+    <testcase classname=" Test if the number is odd" name=" Test if the number is odd" time="0">
+    </testcase>
+    <testcase classname=" Testing to see if Jest works" name=" Testing to see if Jest works" time="0.001">
+    </testcase>
+    <testcase classname=" test if the books endpoint returns data" name=" test if the books endpoint returns data" time="0.036">
+    </testcase>
+    <testcase classname=" get book by id" name=" get book by id" time="0.008">
+    </testcase>
+    <testcase classname=" test book not found" name=" test book not found" time="0.006">
+    </testcase>
+    <testcase classname=" test health point" name=" test health point" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>

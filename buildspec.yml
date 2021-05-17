@@ -1,0 +1,28 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 12
+  pre_build:
+    commands:
+      - echo Installing application dependencies...
+      - npm install
+  build:
+    commands:
+      - echo Testing the application...
+      - npm run test
+  post_build:
+    commands:
+      - echo preparing production package
+      - rm -rf node_modules
+      - npm install --only=prod
+
+artifacts:
+  files:
+    - '**/*'
+  name: iDevOpsApp-$CODEBUILD_BUILD_NUMBER
+reports:
+  iDevOpsTestReport:
+    files:
+      - junit.xml
